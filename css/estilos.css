@@ -8,9 +8,9 @@ body{
 }
 /*ESTILOS GENERALES CONTACTO (Rodrigo)*/ 
 #contacto{
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
+    background-color: #76e6c0;
+    padding: 30px;
+    border-radius: 50px;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 30px auto;
 }

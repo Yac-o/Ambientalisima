@@ -1,9 +1,27 @@
 /*ESTILOS GENERALES DE TODA LA PAGINA*/
+/*--------------------------------*/
+
+/*DEFINICION VARIABLES COLOR DE TODA LA PAGINA*/
+:root{
+    /*DEFINICION DE VARIABLES DE COLOR*/
+    --color-primario: #10a372;
+    --color-secundario: #8cf8d4;
+    --color-acento: #E8611A;
+    --color-fondo: #09f17d;
+    --color-texto: #030000d8;
+}
+
 body{
-    background-color: #10a372;
+    background-color: var(--color-fondo);
+
     /*TIPO DE FUENTE MONTSERRAT PARA TODA LA PAGINA*/
     font-family: 'Montserrat', sans-serif;
+
+    /*COLOR DEL TEXTO PRINCIPAL*/
+    color: var(--color-texto);
+
     font-size: 1rem;
+
     /*INTERLINEADO RECOMENDADO*/
     line-height: 1.6;
 
@@ -13,7 +31,7 @@ body{
 
 /*ESTILOS GENERALES CONTACTO (Rodrigo)*/ 
 #contacto{
-    background-color: #76e6c0;
+    background-color: var(--color-secundario);
     padding: 30px;
     border-radius: 50px;
     max-width: 600px;
@@ -31,3 +49,6 @@ body{
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
+/*ESTILOS GENERALES 2*/
+/*ESTILOS GENERALES 3*/
+/*ESTILOS GENERALES 4*/

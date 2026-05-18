@@ -1,64 +1,76 @@
-/*ESTILOS GENERALES DE TODA LA PAGINA*/
-/*--------------------------------*/
-*{
+/* ESTILOS GENERALES DE TODA LA PAGINA */
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/*DEFINICION VARIABLES COLOR DE TODA LA PAGINA*/
-:root{
-    /*DEFINICION DE VARIABLES DE COLOR*/
-    --color-primario: #10a372;
-    --color-secundario: #8cf8d4;
-    --color-acento: #E8611A;
-    --color-fondo: #09f17d;
-    --color-texto: #030000d8;
+/* DEFINICION VARIABLES COLOR DE TODA LA PAGINA */
+:root {
+    /* DEFINICION DE VARIABLES DE COLOR */
+    --color-acento: #10a372;
+    /* --color-primario: #e8611a; */
+    --color-fondo: #efefef;
+    --color-texto: #514974;
+
+    --fuente-principal: "Montserrat", sans-serif;
 }
-body{
+
+body {
     background-color: var(--color-fondo);
 
-    /*TIPO DE FUENTE MONTSERRAT PARA TODA LA PAGINA*/
-    font-family: 'Montserrat', sans-serif;
-
-    /*COLOR DEL TEXTO PRINCIPAL*/
+    font-family: var(--fuente-principal);
     color: var(--color-texto);
-
     font-size: 1rem;
-
-    /*INTERLINEADO RECOMENDADO*/
     line-height: 1.6;
 
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
-/*===================================================
-           SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
-===================================================*/
 
-/*padding y margin contacto*/
-#contacto{
-    background-color: var(--color-secundario);
+nav a {
+    color: var(--color-primario);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--color-acento);
+}
+
+/* 
+=====================================================
+SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
+=====================================================
+*/
+
+/* padding y margin contacto */
+#contacto {
+    background-color: var(--color-fondo);
     padding: 30px;
     border-radius: 50px;
     max-width: 600px;
     margin: 30px auto;
 }
-#contacto h2{
-    color: #10a372;
+
+#contacto h2 {
+    color: var(--color-primario);
     font-size: 2rem;
     margin-bottom: 20px;
 }
-#contacto h3{
-    color: #ad46e9;
+
+#contacto h3 {
+    color: var(--color-acento);
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-/*margin y padding para los parrafos*/
-#contacto p{
+/* margin y padding para los parrafos */
+#contacto p {
     margin-bottom: 20px;
     font-size: 1.2rem;
 }
 
-
-/*ESTILOS GENERALES 2*/
-/*ESTILOS GENERALES 3*/
-/*ESTILOS GENERALES 4*/
+/* ESTILOS GENERALES 2 */
+/* ESTILOS GENERALES 3 */
+/* ESTILOS GENERALES 4 */

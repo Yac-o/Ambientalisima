@@ -30,9 +30,17 @@ body {
     padding: 0 1rem;
 }
 
+footer{
+    color: var(--color-fondo);
+    background-color: var(--color-texto);
+    padding: 1rem;
+    margin: 1rem;
+}
+
 nav a {
     color: var(--color-primario);
     text-decoration: none;
+    margin: 2rem;
 }
 
 nav a:hover {
@@ -69,6 +77,34 @@ SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
 #contacto p {
     margin-bottom: 20px;
     font-size: 1.2rem;
+}
+/* 
+==================================
+SECCION PROGRAMAS (SOFIA) ESTILOS 
+==================================
+*/
+#Programas{
+       text-decoration: underline;
+}
+#programa1 {
+    color: var(--color-acento);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#programa2 {
+    color: var(--color-acento);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+#programa3 {
+    color: var(--color-acento);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+} 
+
+.participar{
+    font-style:italic ;
 }
 
 /* ESTILOS GENERALES 2 */

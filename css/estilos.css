@@ -43,10 +43,6 @@ nav a {
     margin: 2rem;
     font-weight: bold;
 }
-/*ESTILOS PARA HOVER (INDICA QUE ES UN ENLACE/LINK) */
-nav a:hover {
-    color: green
-}
 
 /* 
 =====================================================
@@ -55,7 +51,6 @@ SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
 */
 /* padding y margin contacto */
 #contacto {
-    background-color: var(--color-fondo);
     padding: 30px;
     border-radius: 50px;
     max-width: 600px;
@@ -63,7 +58,7 @@ SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
 }
 
 #contacto h2 {
-    color: var(--color-primario);
+    color: var(--color-acento);
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -77,13 +72,25 @@ SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
 #contacto p {
     margin-bottom: 20px;
     font-size: 1.2rem;
-    color: var
+    color: var(--color-texto);
 }
 nav a {
     color: var(--color-primario);
     text-decoration: none;
     margin: 2rem;
 }
+/*ESTILOS PARA HOVER (INDICA QUE ES UN ENLACE/LINK)(seccion contactos)*/
+nav a:hover {
+    color: var(--color-acento);
+}
+/*ESTILOS PARA HOVER (INDICA QUE ES UN ENLACE/LINK)(seccion contactos)(usando id=)*/
+#correo:hover, 
+#whatsapp:hover, 
+#como-llegar:hover, 
+#instagram:hover {
+    color: var(--color-acento);
+}
+
 /* 
 ==================================
 SECCION PROGRAMAS (SOFIA) ESTILOS 

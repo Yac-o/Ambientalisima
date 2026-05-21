@@ -59,18 +59,22 @@ article {
 }
 
 /* ESTILOS PARA EL NAV */
-
-nav {
-    padding: 1rem;
-    margin: 1rem;
+nav ul {
+    list-style: none;   /* Elimina los puntos de la lista */
+    display: flex;
+    gap: 20px;
+    padding: 0;
 }
-
+nav li {
+    display: inline block; /*los elementos de la lista se muestren en línea */
+}
 nav a {
-    color: var(--color-texto-fuerte);
-    text-decoration: none;
-    margin: 2rem;
-    font-weight: bold;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: var(--color-texto);
+    font-weight: bold; /*texto de los enlaces sea más destacado */
+    margin-right: 2rem; /* Agrega espacio entre los enlaces */
 }
+
 /*ESTILOS PARA HOVER (INDICA QUE ES UN ENLACE/LINK) */
 nav a:hover {
     color: green

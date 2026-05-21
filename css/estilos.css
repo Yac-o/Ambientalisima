@@ -38,13 +38,14 @@ footer{
 }
 
 nav a {
-    color: var(--color-primario);
+    color: var (var(--color-acento));
     text-decoration: none;
     margin: 2rem;
+    font-weight: bold;
 }
-
+/*ESTILOS PARA HOVER (INDICA QUE ES UN ENLACE/LINK) */
 nav a:hover {
-    color: var(--color-acento);
+    color: green
 }
 
 /* 
@@ -52,7 +53,6 @@ nav a:hover {
 SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
 =====================================================
 */
-
 /* padding y margin contacto */
 #contacto {
     background-color: var(--color-fondo);
@@ -77,6 +77,12 @@ SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
 #contacto p {
     margin-bottom: 20px;
     font-size: 1.2rem;
+    color: var
+}
+nav a {
+    color: var(--color-primario);
+    text-decoration: none;
+    margin: 2rem;
 }
 /* 
 ==================================

@@ -35,10 +35,12 @@ body {
 }
 
 header {
-    color: var(--color-texto-fuerte);
     background-color: var(--color-fondo-alternativo);
-    padding: 2rem 1rem; /*padding y margin (arriba y abajo, izquierda y derecha) header*/
-    text-align: center; /*centrado texto header*/
+    color: var(--color-texto-fuerte);
+    padding: 0.2rem 3rem; /*padding y margin (arriba y abajo, izquierda y derecha)*/
+    display: flex;
+    position: sticky;
+    top: 0px;
 }
 
 footer {
@@ -54,30 +56,27 @@ section {
 }
 
 article {
-    padding: 4rem;
+    padding: 1rem;
     margin: 1rem;
 }
 
 /* ESTILOS PARA EL NAV */
 nav ul {
-    list-style: none;   /* Elimina los puntos de la lista */
+    list-style: none;   /* Elimina los puntos */
     display: flex;
-    gap: 20px;
-    padding: 0;
+    gap: 2rem;
+    padding: 5px;
 }
-nav li {
-    display: inline block; /*los elementos de la lista se muestren en línea */
-}
+
 nav a {
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     color: var(--color-texto);
     font-weight: bold; /*texto de los enlaces sea más destacado */
-    margin-right: 2rem; /* Agrega espacio entre los enlaces */
 }
 
 /*ESTILOS PARA HOVER (INDICA QUE ES UN ENLACE/LINK) */
 nav a:hover {
-    color: green
+    color: var(--color-acento);
 }
 
 /* 
@@ -126,7 +125,9 @@ SECCION INDEX (YACO) ESTILOS
 
 #secciones {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 aside {

@@ -129,11 +129,18 @@ SECCION INDEX (YACO) ESTILOS
     margin-bottom: 20px;
 }
 
+aside {
+    display:flex;
+    flex-wrap: wrap;
+    flex: 1 1 280px; /* PREGUNTAR, no se vuelve responsive */
+    justify-content: center;
+    gap: 1rem;
+}
+
 #sabiasQue {
     color: var(--color-acento);
     font-size: 1rem;
-    margin-bottom: 20px;
-    max-width: 600px;
+    /* max-width: 300px; */
     text-align: justify;
 }
 
@@ -143,6 +150,7 @@ SECCION INDEX (YACO) ESTILOS
     margin: 10px auto;
     border-radius: 10px;
 }
+
 /* 
 ==================================
 SECCION PROGRAMAS (SOFIA) ESTILOS 

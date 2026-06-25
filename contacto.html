@@ -20,13 +20,43 @@
     </head>
     <body>
         <header>
-            <nav id="navPrincipal">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="programas.html">Programas</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <!-- NOMBRE DE LA ONG (NAVBAR BRAND) -->
+                    <a class="navbar-brand" href="index.html">Ambientalisima</a>
+                    <!-- BOTÓN DE DESPLEGABLE PARA PANTALLAS PEQUEÑAS(NAVBAR TOGGLER) -->
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- CONTENEDOR DE LINK PARA EL MOBILE (NAVBAR COLLAPSE) -->
+                     <!-- comentario de ayuda, al achicar pantalla o usar en celular se activa la hamburguesa y se despliega el menu de links -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="programas.html">Programas</a>
+                            </li>
+                            <!--.ACTIVE PARA INDICAR LA PÁGINA ACTUAL Y RESALTAR VISUALMENTE EL LINK -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 

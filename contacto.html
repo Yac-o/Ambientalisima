@@ -63,45 +63,59 @@
         <main>
             <!-- contenedor de bootstrap para centrar el contenido y darle un margen superior -->
             <div class="container mt-5">
-                <div class="row">
-                     <div class="col-12 col-md-8 mx-auto">
+                <div class="row">    <!-- comentario de ayuda activa la grilla y alinea las columnas hacia los costados-->
+                     <div class="col-12 col-md-8 mx-auto"> <!--es lo que hace que el sitio sea responsivo. En celular-->
                         
             <section id="contacto">
-                <h1>Contacto:</h1>
-                <p>
-                    <strong
-                        >¿Tienes alguna pregunta o necesitas más información? No
+                <h1>Contacto:</h1><strong>¿Tienes alguna pregunta o necesitas más información? No
                         dudes en contactarnos. Te responderemos a la
-                        brevedad.</strong
-                    >
-                </p>
+                        brevedad.</strong>
 
-               <dl>
-    <dt>Correo electrónico:</dt>
-    <dd>
-        <a id="correo" href="mailto:Ambientalisimaunahur@gmail.com" target="_blank" rel="noopener noreferrer">Ambientalisimaunahur@gmail.com</a>
-    </dd>
-
-    <dt>WhatsApp:</dt>
-    <dd>
-        <a id="whatsapp" href="tel:+541128832372" target="_blank" rel="noopener noreferrer">+54 11 2883-2372</a>
-    </dd>
-
-    <dt>Ubicación:</dt>
-    <dd>
-        <a id="como-llegar" href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Cómo llegar</a>
-    </dd>
-
-    <dt>Redes Sociales:</dt>
-    <dd>
-        <a id="instagram" href="https://www.instagram.com/ambientalisimaunahur" target="_blank" rel="noopener noreferrer">Instagram</a>
-    </dd>
-</dl>
-            </section>
-
-                     </div>
-                 </div>
+            <div id="canales-contacto" class="row g-4 mt-2">  <!--g-4 espacia las tarjetas para que no se peguen en celulares-->
+               <div class="col-12 col-md-6">
+                   <div class="card h-100 border-light shadow-sm">
+                       <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Ambientalisimaunahur@gmail.com</h5>
+                        <p class="card-text text-muted my-3">Nuestro correo electrónico.</p> 
+                            <a id="correo" href="mailto:Ambientalisimaunahur@gmail.com" target="_blank" class=" btn btn-primary w-100 text-nowrap" rel="noopener noreferrer">Escribinos</a>
+                       </div>
+                   </div>
+               </div>    
+                
+            <div class="col-12 col-md-6">
+                <div class="card h-100 border-light shadow-sm">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">WhatsApp</h5>
+                        <p class="card-text text-muted my-3">Contáctanos por WhatsApp para mas info.</p>
+                        <a id="whatsapp" href="https://wa.me/541128832372" class="btn btn-secondary w-100 text-nowrap" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                    </div>
+                </div>
             </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card h-100 border-light shadow-sm">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Ubicacion</h5>
+                        <p class="card-text text-muted my-3">Donde nos encontramos</p>
+                        <a id="como-llegar" href="https://maps.google.com" class="btn btn-success w-100 text-nowrap" target="_blank" rel="noopener noreferrer">Ver mapa</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card h-100 border-light shadow-sm">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Redes sociales</h5>
+                        <p class="card-text text-muted my-3">Síguenos</p>
+                        <a id="instagram" href="https://www.instagram.com/ambientalisimaunahur" class="btn btn-info w-100 text-nowrap" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    </div>
+                </div>
+            </div> 
+            </section>
+                    </div>
+                </div>
+            </div>
+
         </main>
 
         <footer>

@@ -85,11 +85,17 @@ SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
 =====================================================
 */
 /* padding y margin contacto */
-#contacto {
+#contacto{
     padding: 30px;
     border-radius: 50px;
     max-width: 600px;
     margin: 30px auto;
+}
+
+#contacto h1 { /* titulo principal de contacto modificado con unidades rem */
+    font-size: 1.8rem; 
+    color: var(--color-acento); 
+    margin-bottom: 20px;
 }
 
 #contacto h2 {

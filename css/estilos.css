@@ -117,6 +117,7 @@ SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
     color: var(--color-texto);
 }
 #correo:hover,
+#telefono:hover,
 #whatsapp:hover,
 #instagram:hover,
 #como-llegar:hover {

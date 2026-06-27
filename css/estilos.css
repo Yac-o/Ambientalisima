@@ -124,6 +124,18 @@ SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
     color: var(--color-acento);
 }
 
+.info-dl dl dt {
+    font-weight: bold;
+    color: var(--color-acento);      /*variablae de pagina global*/
+    margin-top: 10px;
+}
+
+.info-dl dd {
+    margin-left: 0;                     /*alinea texto izquierda*/
+    margin-bottom: 10px;
+    color: var(--color-texto);
+}
+
 /*
 ==================================
 SECCION INDEX (YACO) ESTILOS 

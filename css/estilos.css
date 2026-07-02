@@ -205,6 +205,12 @@ SECCION PROGRAMAS (SOFIA) ESTILOS
     margin-bottom: 10px;
 }
 
-.participar {
+.mb-0{
+    color: var(--color-texto-fuerte);
     font-style: italic;
+}
+
+.accordion-button{
+    color: var(--color-texto-fuerte);
+    font-weight: bold;
 }

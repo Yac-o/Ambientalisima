@@ -60,7 +60,7 @@ article {
     margin: 1rem;
 }
 
-/* ESTILOS PARA EL NAV */
+/* ESTILOS PARA NAV */
 nav ul {
     list-style: none; /* Elimina los puntos */
     display: flex;
@@ -68,14 +68,24 @@ nav ul {
     padding: 5px;
 }
 
-nav a {
+.nav-item,
+.nav-link {
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     color: var(--color-texto);
     font-weight: bold; /*texto de los enlaces sea más destacado */
 }
 
-/*ESTILOS PARA HOVER (INDICA QUE ES UN ENLACE/LINK) */
-nav a:hover {
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-texto-fuerte);
+    text-decoration: none;
+    padding-right: 3rem;
+}
+
+/* ESTILOS PARA HOVER (INDICA QUE ES UN ENLACE/LINK) */
+.nav-link:hover,
+.navbar-brand:hover {
     color: var(--color-acento);
 }
 
@@ -85,16 +95,17 @@ SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
 =====================================================
 */
 /* padding y margin contacto */
-#contacto{
+#contacto {
     padding: 30px;
     border-radius: 50px;
     max-width: 600px;
     margin: 30px auto;
 }
 
-#contacto h1 { /* titulo principal de contacto modificado con unidades rem */
-    font-size: 1.8rem; 
-    color: var(--color-acento); 
+#contacto h1 {
+    /* titulo principal de contacto modificado con unidades rem */
+    font-size: 1.8rem;
+    color: var(--color-acento);
     margin-bottom: 20px;
 }
 
@@ -126,12 +137,12 @@ SECCION CONTATO (RODRIGO) ESTILOS GENERALES CONTACTO
 
 .info-dl dl dt {
     font-weight: bold;
-    color: var(--color-acento);      /*variablae de pagina global*/
+    color: var(--color-acento); /*variablae de pagina global*/
     margin-top: 10px;
 }
 
 .info-dl dd {
-    margin-left: 0;                     /*alinea texto izquierda*/
+    margin-left: 0; /*alinea texto izquierda*/
     margin-bottom: 10px;
     color: var(--color-texto);
 }
@@ -152,7 +163,7 @@ SECCION INDEX (YACO) ESTILOS
 aside {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 280px; /* PREGUNTAR, no se vuelve responsive */
+    flex: 1 1 280px;
     justify-content: center;
     gap: 1rem;
 }
@@ -160,12 +171,10 @@ aside {
 .sabiasQue {
     color: var(--color-acento);
     font-size: 1rem;
-    /* max-width: 300px; */
     text-align: justify;
 }
 
 .imgCuerpo {
-    /* text-align: center; (parece que no funciona con img) */
     display: block;
     margin: 10px auto;
     border-radius: 10px;
